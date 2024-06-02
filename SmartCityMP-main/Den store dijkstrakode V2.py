@@ -107,8 +107,6 @@ for i in dijkstra(punkter, linjer, start, stopp)[0]:
         intKart.append(3)
     if(i == 'C' or i == 'D'):
         intKart.append(1)
-    if(i == 'G' or i == 'H'):
-        intKart.append(4)
 
 dirKart.append(intKart[1] - intKart[2])
 if(intKart[3] == 1 and intKart[2] != 1):
